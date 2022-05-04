@@ -1,0 +1,110 @@
+/*HEADER-ESTUDIO*/
+
+.estudioheader__img{
+    display: flex;
+    height: 90vh;
+    background-color: #000000;
+    margin-top: 75px;
+}
+
+.estudioheader__img img{
+    border-radius: 0px 140px 140px 0px;
+}
+
+.estudioheader__titulo{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    margin-right: 15px;
+}
+
+.estudioheader__titulo h1{
+    position: absolute;
+    color: #ffffff;
+    font-size: 58px;
+    font-family: 'The Nautigal', cursive;
+    text-align: center;
+    border-bottom: 2px solid #ffffff;
+}
+
+/*----------------------------------------------------------------------*/
+/*MAIN-ESTUDIO*/
+
+.imgestudio__caja{
+    display: flex;
+    overflow-x : scroll;
+    overflow-y: hidden;
+}
+
+.imgestudio__1{
+    width: 700px;
+    height: 500px;
+    object-fit: contain;
+    margin: 50px 20px 20px 50px;
+}
+
+.imgestudio__2{
+    width: 660px;
+    height: 500px;
+    object-fit: contain;
+    margin: 50px 20px 20px 50px;
+}
+
+.imgestudio__3{
+    width: 700px;
+    height: 500px;
+    object-fit: contain;
+    margin: 50px 20px 20px 50px;
+}
+
+.imgestudio__4{
+    width: 660px;
+    height: 500px;
+    object-fit: contain;
+    margin: 50px 20px 20px 50px;
+    filter: grayscale(100%)
+}
+
+.imgestudio__5{
+    width: 700px;
+    height: 500px;
+    object-fit: contain;
+    margin: 50px 20px 20px 50px;
+    filter: grayscale(100%)
+}
+
+.imgestudio__6{
+    width: 660px;
+    height: 500px;
+    object-fit: cover;
+    margin: 50px 20px 20px 50px;
+}
+
+.imgestudio__caja img{
+    filter: grayscale(100%);
+    border-radius: 50px;
+}
+
+.imgestudio__caja img:hover { 
+    filter: grayscale(0%);
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+.estudio__mapa{
+    width: 100%;
+    height: 30vh;
+}
+
+/*---------------------------------------------------------------------*/
+/*FOOTER-ESTUDIO*/
+
+#footer-estudio{
+    display: flex;
+    width: 100%; 
+    justify-content: space-around;
+    background-color: #000000;
+    object-fit: cover;
+    margin-top: 40px;
+    opacity: 90%;
+}
