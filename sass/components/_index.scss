@@ -1,43 +1,9 @@
+
+
 /*HEADER-INDEX*/
 
 .carousel-inner {
     margin-top: 75px;
-}
-
-.w-100 {
-    width: 100%!important;
-    position: center;
-    height: auto;
-    object-fit: cover;
-}
-
-.contenedorheader{
-    display: flex;
-    justify-content: end;
-    height: 88vh;
-    background-image: url("../resource/img/wallpaper2.jpeg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin-top: 75px;
-}
-
-.contenedorheader div{
-    display: flex;
-    justify-items: end;
-    align-items: flex-end;
-}
-
-.contenedorheader__titulo{
-    color: #000000;
-    font-size: 58px;
-    font-family: 'The Nautigal', cursive;
-    border-bottom: 2px solid black;
-}
-
-.contenedorheader__img{
-    width: 1529px;
-    height: 89%;
-    object-fit: cover
 }
 
 /*--------------------------------------------------------*/
@@ -57,70 +23,68 @@
 .cuerpopag__cajatitulo { 
     grid-area: 1 / 5 / 1 / 9;
     text-align: center;
-}
 
-.cuerpopag__cajatitulo h1{
-    font-family: 'Smooch Sans', sans-serif;
-    font-size: 40px;
-    font-weight: bold;
-    color: rgb(175, 13, 13);
-    padding: 30px 0px 30px 0px;
-    border-bottom: 2px solid #000000;
+        h1{
+            font-family: map-get($estilos, tipografia);
+            font-size: 40px;
+            font-weight: bold;
+            color: rgb(175, 13, 13);
+            padding: 30px 0px 30px 0px;
+            border-bottom: map-get($estilos , subrayado-negro);
+        }
 }
 
 .cuerpopag__cajaimg1 {
     grid-area: 2 / 6 / 2 / 2; 
     margin-top: 55px;
 
-
     animation-name: fadeInLeft;
     animation-duration: 4s;
-}
 
-
-.cuerpopag__cajaimg1 img{
-    width: 50%;
-    border-radius: 15px;
-    box-shadow: 2px 2px 7px black;
+        img{
+            width: 50%;
+            border-radius: 15px;
+            box-shadow: 2px 2px 7px black;
+        }
 }
 
 .cuerpopag__cajap1 { 
     grid-area: 2 / 5 / 5 / 12;
     margin-top: 115px;
-}
 
-.cuerpopag__cajap1 p{
-    text-align: justify;
-    border-bottom: 2px solid black;
-    font-family: 'Smooch Sans', sans-serif;
-    font-size: 20px;
+        p{
+            text-align: justify;
+            border-bottom: map-get($estilos , subrayado-negro);
+            font-family: map-get($estilos, tipografia);
+            font-size: 20px;
+        }
 }
 
 .cuerpopag__cajap2 {
     grid-area: 8 / 2 / 8 / 10;
     margin-right: 95px;
     margin-top: 135px;
+
+        p{
+            font-family: map-get($estilos, tipografia);
+            text-align: justify;
+            border-bottom: map-get($estilos , subrayado-negro);
+            font-size: 20px;
+        }
 }
 
-.cuerpopag__cajap2 p{
-    font-family: 'Smooch Sans', sans-serif;
-    text-align: justify;
-    border-bottom: 2px solid black;
-    font-size: 20px;
-}
-
-.cuerpopag_cajaimg2 {
+.cuerpopag__cajaimg2 {
     grid-area: 8 / 10 / 12 / 12;
 
     animation-name: fadeInRight;
     animation-duration: 4s;
-}
 
-.cuerpopag_cajaimg2 img{
-    width: 100%;
-    height: 120%;
-    border-radius: 15px;
-    box-shadow: 2px 2px 7px black;
+        img{
+            width: 100%;
+            height: 120%;
+            border-radius: 15px;
+            box-shadow: 2px 2px 7px black;
+        }
 }
 
 /*-------------------------------------------------------------*/
@@ -134,85 +98,85 @@
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     justify-items: center;
-    background-color: #000000;
+    background-color: map-get($estilos, bg-color);
     opacity: 90%;
     margin-top: 20%;
 }
 
 .footer__caja1 { 
     grid-area: 1 / 1 / 3 / 2;
-    color: #ffffff;
+    color: map-get($estilos, texto-color2);
     text-align: center;
-}
 
-.footer__caja1 h3{
-    font-family: 'Smooch Sans', sans-serif;
-    font-size: 25px;
-    text-align: center;
-    border-bottom: 2px solid #ffffff;
-    margin-top: 20px;
-    width: 270px;
-}
+        h3{
+            font-family: map-get($estilos, tipografia);
+            font-size: 25px;
+            text-align: center;
+            border-bottom: map-get($estilos , subrayado-blanco);
+            margin-top: 20px;
+            width: 270px;
+        }
 
-.footer__caja1 p{
-    width: 270px;
-    text-align: justify;
-    font-family: 'Smooch Sans', sans-serif;
-    font-size: 17px;
-    margin-top: 10px;
+        p{
+            width: 270px;
+            text-align: justify;
+            font-family: map-get($estilos, tipografia);
+            font-size: 17px;
+            margin-top: 10px;
+        }
 }
 
 .footer__caja2 {
     grid-area: 1 / 2 / 3 / 3; 
-    color: #ffffff;
+    color: map-get($estilos, texto-color2);
     text-align: center;
-}
 
-.footer__caja2 h3{
-    font-family: 'Smooch Sans', sans-serif;
-    font-size: 25px;
-    text-align: center;
-    border-bottom: 2px solid #ffffff;
-    margin-top: 20px;
-    width: 270px;
-}
+        h3{
+            font-family: map-get($estilos, tipografia);
+            font-size: 25px;
+            text-align: center;
+            border-bottom: map-get($estilos , subrayado-blanco);
+            margin-top: 20px;
+            width: 270px;
+        }
 
-.footer__caja2 p{
-    font-size: 17px;
-    font-family: 'Smooch Sans', sans-serif;
-    margin-top: 10px;
+        p{
+            font-size: 17px;
+            font-family: map-get($estilos, tipografia);
+            margin-top: 10px;
+        }
 }
 
 .footer__caja3 { 
     grid-area: 1 / 3 / 3 / 4;
-    color: #ffffff;
+    color: map-get($estilos, texto-color2);
     text-align: center;
-}
 
-.footer__caja3 h3{
-    color: #ffffff;
-    font-family: 'Smooch Sans', sans-serif;
-    font-size: 25px;
-    border-bottom: 2px solid #ffffff;
-    text-align: center;
-    margin-top: 20px;
-    width: 270px;
-}
+        h3{
+            color: map-get($estilos, texto-color2);
+            font-family: map-get($estilos, tipografia);
+            font-size: 25px;
+            border-bottom: map-get($estilos , subrayado-blanco);
+            text-align: center;
+            margin-top: 20px;
+            width: 270px;
+        }
 
-.footer__caja3 a{
-    color: #ffffff;
-    font-family: 'Smooch Sans', sans-serif;
-    font-size: 25px;
-    text-decoration: none;
-}
+        a{
+            color: map-get($estilos, texto-color2);
+            font-family: map-get($estilos, tipografia);
+            font-size: 25px;
+            text-decoration: none;
 
-.footer__caja3 a img{
-    width: 47px;
-    height: 47px;
-    border-radius: 14px;
-    margin: 10px 0px 0px 10px
-}
+            &:hover{
+                transform: scale(1.20);
+            }    
+        }
 
-.footer__caja3 a :hover{
-    transform: scale(1.20);
-}    
+        a img{
+            width: 47px;
+            height: 47px;
+            border-radius: 14px;
+            margin: 10px 0px 0px 10px
+        }
+}

@@ -5,10 +5,10 @@
     height: 90vh;
     background-color: #000000;
     margin-top: 75px;
-}
 
-.estudioheader__img img{
-    border-radius: 0px 140px 140px 0px;
+        img{
+            border-radius: 0px 140px 140px 0px;
+        }
 }
 
 .estudioheader__titulo{
@@ -16,15 +16,15 @@
     align-items: end;
     justify-content: end;
     margin-right: 15px;
-}
 
-.estudioheader__titulo h1{
-    position: absolute;
-    color: #ffffff;
-    font-size: 58px;
-    font-family: 'The Nautigal', cursive;
-    text-align: center;
-    border-bottom: 2px solid #ffffff;
+        h1{
+            position: absolute;
+            color: #ffffff;
+            font-size: 58px;
+            font-family: 'The Nautigal', cursive;
+            text-align: center;
+            border-bottom: 2px solid #ffffff;
+        }
 }
 
 /*----------------------------------------------------------------------*/

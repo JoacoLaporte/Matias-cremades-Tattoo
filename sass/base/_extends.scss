@@ -1,0 +1,12 @@
+
+%img-trabajos{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    transition: all 0.5s;
+    margin: 50px;
+
+    &:hover{
+        transform: scale(1.1);
+    }
+}
